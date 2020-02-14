@@ -1,0 +1,166 @@
+@font-face {
+	font-family: bankgothic;
+	src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+	font-family: pcdown;
+	src: url('../fonts/pdown.ttf');
+}
+
+.menu {
+	
+background-color: rgba(14, 4, 5, 0.7);
+
+
+border-radius: 10px 10px 10px 10px;
+padding-bottom: 13px;
+padding-top: 13px;
+padding-left: 13px;
+padding-right: 13px;
+font-weight: bold;
+	font-family: bankgothic;
+	min-width: 350px;
+	color: #fff;
+	
+	position: absolute;
+-webkit-box-shadow: -1px 0px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 15px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 15px 0px rgba(0,0,0,0.75);
+
+}
+
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+
+}
+
+.menu.align-top-left {
+	left: 150;
+	top: 240;
+
+}
+
+.menu.align-top {
+	
+	left: 50%;
+	top: 120;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 120;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu .head {
+			margin-bottom:1px;
+	background-color: rgba(139, 21, 7, 0.9);
+	text-align: center;
+	height: 45px;
+	line-height: 40px;
+border-radius: 10px 10px 10px 10px;
+color: #fff;
+border: 1px solid #000000;
+
+}
+
+.menu .menu-items {
+
+	max-height: 350px;
+	overflow-y: auto;
+/* border: 1px solid #000000; */
+
+}
+
+.menu .menu-items .menu-item {
+height: 40px;
+	margin-bottom:1px;
+	border-radius: 6px 6px 6px 6px;
+
+	display: block;
+	background-color: #110c0e;
+
+	height: 32px;
+	line-height: 32px;
+	color: #fff;
+
+   padding-left:15px;
+	text-align: left;
+
+
+}
+
+.menu .menu-items .menu-item.selected {
+border-radius::5px solid #531511;
+border-left:5px solid #531511;
+border-top: 5px solid #531511;
+border-right:5px solid #531511;
+border-bottom: 5px solid #531511;
+
+	/* background-color: #d0d0d0; */
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+left:5%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	
+  background: #090102; 
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8e1112; 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+
+
+
+
